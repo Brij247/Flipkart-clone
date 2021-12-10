@@ -307,3 +307,31 @@ margin-bottom: 20px;
     white-space: nowrap;
     width: 250px !important;
 }
+
+/* cart and more btn styling */
+.cart{
+    position: relative;
+    right: 40px;
+}
+/* More Button */
+.more{
+    width: 100%;
+    padding: 0 0 0 50px;
+    
+}
+.more-list{
+    font-size: .8em;
+}
+
+.more_lan, .cart_lan{
+    color: white;
+    font-weight: bold !important;
+    margin: 0px 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.more_lan:hover{
+    color: whitesmoke !important;
+    text-decoration: none;
+}
