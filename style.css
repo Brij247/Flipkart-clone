@@ -19,23 +19,3 @@ div{
 }
 
 
-/* utility class */
-.flex{
-    display: flex;
-}
-
-.fa{
-    margin: 0px 4px;
-}
-
-.fa-angle-down{
-    font-weight: lighter;
-    margin: 0;
-}
-
-.fa-user{
-    border-radius: 50%;
-}
-.none{
-    display: none;
-}
