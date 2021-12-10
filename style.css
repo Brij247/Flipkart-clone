@@ -503,3 +503,12 @@ margin-bottom: 20px;
     font-size: .85em;
     margin-top: .6em;
 }
+
+/* Highlight-2: 3-Card Banner Section */
+.cur{
+    cursor: pointer;
+    transform: scale(.99);
+}
+.cur:hover{
+    transform: scale(1);
+}
