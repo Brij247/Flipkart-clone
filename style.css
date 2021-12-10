@@ -34,3 +34,39 @@ div{
     margin-bottom: -2rem;
     margin-top: 0;
 }
+
+.heading_category_items{
+    padding: 12px 8px; 
+    cursor: pointer;
+    text-align: center;
+ }
+ .heading_category_items:hover{
+    color: #2874f0;
+}
+.cat_image{
+    height: 64px;
+    width: 64px;
+    margin-bottom: 3px;
+}
+.heading_item_name{
+    font-size: 14px;
+    font-weight: 550;
+}
+.heading_category_items:first-child{
+    padding-left: 22px;
+
+}
+
+.heading_category_items:last-child{
+    padding-right: 22px;
+}
+.pointer{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+    left: 50%;
+
+}
