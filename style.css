@@ -512,3 +512,70 @@ margin-bottom: 20px;
 .cur:hover{
     transform: scale(1);
 }
+
+/* Footer styling */
+.footer_area{
+    background-color: #172337;
+    min-width: 978px;
+    border-top: 1px solid #ddd;
+    margin-top: 25px;
+    height: 265px;
+    width: 100%;
+}
+.content{
+    color: #565656;
+    text-align: left;
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 90% !important;
+    padding: 30px 15px;
+}
+.foosec, .downarea{
+    flex: 1;
+}
+.about, .help, .policy, .social{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.abtsec, .helpSec, .policySec, .socialSec{
+    line-height: 2;
+    color: #fff;
+    display: block;
+    font-weight: 400 lighter;
+    font-size: 12px;
+}
+.abtsec:hover, .helpSec:hover, .policySec:hover, .socialSec:hover{
+    color: #ddd;
+}
+.add{
+    line-height: 1;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.mailAddress, .add{
+    font-size: 12px;
+    white-space: nowrap;
+    border-left: 1px solid #454d5e;
+    padding: 2px 25px;
+}
+.mailAddresstwo{
+    font-size: 12px;
+    white-space: nowrap;
+    padding: 0px 25px;
+}
+.downarea{
+    border-top: 1px solid #454d5e;
+    padding: 25px 80px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #172337;
+}
+.downarea_fooImg{
+    color: #fff;
+    font-size: 12px;
+}
