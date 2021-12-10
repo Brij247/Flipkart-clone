@@ -1,2 +1,41 @@
 /*bootstrap CSS import*/
 @import url(css/bootstrap.min.css);
+
+
+/*basic css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto, arial, sans-serif !important;
+    text-decoration: none;
+    min-height: 140vh;
+    background: #f1f3f6;
+}
+div{
+    display: block;
+}
+
+
+/* utility class */
+.flex{
+    display: flex;
+}
+
+.fa{
+    margin: 0px 4px;
+}
+
+.fa-angle-down{
+    font-weight: lighter;
+    margin: 0;
+}
+
+.fa-user{
+    border-radius: 50%;
+}
+.none{
+    display: none;
+}
