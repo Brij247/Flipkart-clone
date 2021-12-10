@@ -39,6 +39,165 @@
 
     </head>
     <body>
+
+      <!-- Header navigation with logo and search bar -->
+    <nav class="heading_navigation flex" id="navigation_heading">
+        <!-- Flipkart Logo -->
+        <div class="nav_container flex">
+          <div class="logo flex">
+            <a href="/index.html" class="flip_logo">
+              <img src="/images/logo/flip-logo.png" alt="logo"/></a>
+            <a href="/index.html" class="anchor plus">Explore
+              <span class="plus_lan">Plus <img src="/images/logo/plus-logo.png" alt="logo" /></span></a>
+          </div>
+
+           <!-- Searchbar -->
+           <div class="search_bar_container">
+            <div class="search_bar">
+                <form class="search flex">
+                <input type="text"placeholder="Search For products, brands and more"class="search_box"/>
+                <button class="btn_search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        
+        <!-- login button with drop down-->
+        <div class="login-boxed">   
+          <div class="col dropdown login" >
+              <button class="btn bg-white login_lan" type="button" id="loginMenuButton" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="true" onclick="loginOnclick()">
+              Login
+              </button>
+
+              
+              <div class="box" id="myForm">
+                  
+                  <div class="row">
+                      <div class="col-sm-5 col-xs-1 box1">
+                          <div class="inline-text">
+                              <h1>Login</h1>
+                              <p>
+                                  Get access to your Orders,<br />
+                                  Wishlist and<br />
+                                  Recomadations
+                              </p>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-1 box2">
+                          
+                          
+                          <div class="user-id user-data">
+                        <input type="email " name="" id="" required=""/>
+                        <label>Enter Email/Mobile Number</label>
+                      </div>
+                      <div class="user-id user-data">
+                        <input type="password" name="" id="" required=""/>
+                        <label>Enter Password</label>
+                        
+                      </div>
+                      
+                          <span><a href="#">Forgot?</span></a>
+                      <div class="user-id button">
+                        <input type="submit" name="" id="" value="Login" />
+                      </div>
+                      <div class="user-id">
+                      <p>OR</p>
+                  </div>
+                      <div class="user-id button">
+                        <input type="reset" name="" id="" value="Request OTP" />
+                      </div>
+                      <div class="user-id">
+                        <p class="footer"><a href="#">New to Flipkart? Create an account</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+
+              <div class="dropdown-menu login-list ml-md-3 mt-2" aria-labelledby="loginMenuButton" >
+                  <div class="d-flex p-2">
+                      <h5 class="ml-md-2 pl-pr-3">New Customer?</h5>
+                      <a href="#" class="ml-auto mr-2 text-primary p-3" id="signUp">Sign Up</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex p-2">
+                      <i class="fa fa-user-circle text-primary mt-2 ml-2 pt-6" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">My Profile</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex p-2">
+                      <i class="fa fa-plus text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Flipkart Plus Zone</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex p-2">
+                      <i class="fa fa-book text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Orders</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex p-2">
+                      <i class="fa fa-heart text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Wishlist</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex p-2">
+                      <i class="fa fa-trophy text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Rewards</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex p-2">
+                      <i class="fa fa-gift text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Gift Cards</a>
+                  </div>
+              </div>
+          </div>
+          
+      </div>  
+
+       <!-- more button -->
+       <div class="col dropdown more more_lan">
+        <a class="btn dropdown-toggle more_lan ml-lg-4 ml-sm-0" href="#" role="button" id="moreMenuLink"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        More
+        </a>
+
+        <div class="dropdown-menu more-list" aria-labelledby="moreMenuLink">
+            <div class="d-flex p-2">
+                <i class="fa fa-bell text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                <a class="dropdown-item" href="#">Notification Preferences</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="d-flex p-2">
+                <i class="fa fa-archive text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                <a class="dropdown-item" href="#">Sell On Flipkart</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="d-flex p-2">
+                <i class="fa fa-question-circle text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                <a class="dropdown-item" href="#">24x7 Customer Care</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="d-flex p-2">
+                <i class="fa fa-line-chart text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                <a class="dropdown-item" href="#">Advertise</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="d-flex p-2">
+                <i class="fa fa-download text-primary ml-md-3 mt-2" aria-hidden="true"></i>
+                <a class="dropdown-item" href="#">Download App</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart button -->
+    <div class="cart">
+      <span class="cart_lan"><i class="fa fa-shopping-cart"></i> Cart</span>
+    </div>
+      </div>
+    </nav>
+     <!-- Header nav bar ends  -->
       
 
 
